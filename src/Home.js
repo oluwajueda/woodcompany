@@ -71,11 +71,12 @@ const Home = () => {
             <div>
                 <img src={wood1} alt='wood'/>
                 <h4>Oak</h4>
+                <div className='wood-characters'>
                   <p><span><img src={mark} alt='mark'/></span>Durability</p>
                 <p><span><img src={mark} alt='mark'/></span>Beautiful texture</p>
                <p><span><img src={mark} alt='mark'/></span>Water resistance</p>
                <p><span><img src={cross} alt='mark'/></span>Expensive</p>
-               
+               </div>
               
             </div>
             <div>
@@ -104,7 +105,7 @@ const Home = () => {
             <h3>Advantages <br/>
 working with us</h3>
 <div className='video-p'>
-<img src={video} alt='video'/>
+<img src={video} alt='video' className='video'/>
 
 <div className='advantage-div'>
 <p>In-house carpentry production</p>
@@ -119,19 +120,27 @@ working with us</h3>
 
         <div className='about'>
             <div className='about-div'>
-            <h3>ABOUT US</h3>
+           
+            <div className='about-container'>
+                <div className='h3-p'>
+                 <h3>ABOUT US</h3>
+                 <div >
             <p className='about-p'>
                 BIO CWT  - We manufacture solid wood products according to individual drawings. We make chairs, armchairs, wardrobes, beds and much more in our own workshop, equipped with all the necessary industrial equipment.
             </p>
-</div>
+            </div>
+            </div>
+
             <div className='about-image'>
                 <img src={about1} alt='about1' className='wood1'/>
                 <img src={about2} alt='about2' className='wood2'/>
                 <img src={about3} alt='about3' className='wood3'/>
             </div>
+            </div>
+            </div>
 
         </div>
-        
+        <div className='questions'>
         <h3 className='questions-h3'>ANY QUESTIONS?</h3>
         <div className='questions-div'>
             <form>
@@ -141,10 +150,11 @@ working with us</h3>
                <button className='form-btn'>send</button>
             </form>
             <div><p className='div-p'>Write to us and we will be sure to answer all your questions and give you a comprehensive consultation.</p>
-            <img src={realwood} alt='realwood'/>
+            <img src={realwood} alt='realwood' className='realwood'/>
             
             </div>
 
+        </div>
         </div>
 
         <footer>
