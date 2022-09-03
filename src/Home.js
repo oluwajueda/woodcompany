@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 import logo from './photos/logo.png'
 import image1 from './photos/image.png'
@@ -17,25 +17,38 @@ import about3 from './photos/about3.png'
 import realwood from './photos/real-wood.png'
 import phone from './photos/phone.png'
 import location from './photos/location.png'
+import togle from './photos/togle.png';
+
 
 
 
 
 
 const Home = () => {
+
+    const [showLinks, setShowLinks] = useState(false)
+
   return (
     <div >
         <div className='first-div'>
       <header>
-        <nav>
+        <nav >
             <div className='header'>
+                <div className='logo-link'>
+                <div className='logo-toggle'>
             <img src={logo} alt='imag' className='logo'/>
-
+            
+                <img src={togle} alt='togle' className='nav-toggle' onClick={() => setShowLinks(!showLinks)}/>
+                </div>
+        
+            <div className={`${showLinks?'links-container show-container': 'links-container'}`}>
             <div className='nav-links'>
                <li ><a href='/'>Gallery</a></li>
                <li><a href='/'>Prices for services</a></li>
                <li><a href='/'>About us</a></li>
                <li><a href='/'>Contact</a></li>
+               </div>
+            </div>
             </div>
             </div>
         </nav>
