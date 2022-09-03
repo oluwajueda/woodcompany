@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&family=Kaushan+Script&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100&family=Ropa+Sans&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+body{
+   background-color: #222021;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ 
+
+}
+h1,h4,h3,h2{
+  color: #f5f5f5;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 55px;
+  line-height: 23px;
+  line-height: 60px;
+}
+
+p{
+  color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+ 
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.logo{
+  width: 197px;
+  height: 83.8px;
+  padding-left: 52px;
+  padding-top: 22px;
+}
+
+.nav-links{
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+.first-div{
+background: url("./photos/imag.png");
+  background-repeat: no-repeat;
+  background-size: 908px 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100vw;
+
+}
+
+nav{
+margin: auto;
+}
+
+.header{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+li a{
+  list-style-type: none;
+  text-decoration: none;
+  padding-right: 40px;
+  color: #fff;
+}
+
+li {
+  list-style-type: none;
+}
+.header-box{
+  background-color: #1E0C06;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  width: 90vw;
+  transform: translateY(20%);  
+  border-radius: 52px;
+  border-radius: 52px 0 0 52px;
+}
+.intro{
+  padding-left: 28px;
+}
+.intro h2{
+  line-height: 104px;
+
+}
+.intro h4{
+  line-height: 39.01px;
+
+ 
+}
+.order-btn{
+  color: #f5f5f5;
+  background-color: #728bad;
+  width: 225px;
+    height: 58px;
+    border-radius: 42px;
+  
+}
+
+.vertical-line{
+  border-left: 1px solid #f5f5f5;
+    height: 500px;
+    margin-left: 50px;
+}
+.header-images{
+ display: flex;
+ flex-direction: column;
+ margin-top: 29px;
+}
+.image2 {
+    transform: translate(-110%, 20% );
+  }
+
+  main h3{
+
+    margin-left: 144px;
+   padding-top: 119px;
+   
+  }
+  .wood-type{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    
+  }
+    .wood-type p{
+    
+    
+      }
+
+      .workimage{
+        width: 1130px;
+        height: 625px; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+      }
+    
+      section h3 {
+        margin-left: 144px;
+        margin-top: 110px;
+      
+      }
+       .about-p{
+        font-size: 30px;
+       }
+      .video-p{
+        display: flex;
+        justify-content: space-around;
+      }
+      .video-p p{
+  
+   width: 387px;
+      }
+
+      .consult-btn{
+        width: 472px;
+        height: 58px;
+        background-color: #728bad;
+        color: #f5f5f5;
+        border-radius: 42px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 65px;
+        border: none;
+        border-color: transparent;
+        padding: 8px 15px;
+      }
+
+      .about{
+        background-color: #1E0C06;
+        margin-right: auto;
+          display: flex;
+          justify-content: space-between;
+          width: 90vw;
+          margin-top: 150px;
+          border-radius: 0px 52px 52px 0px;
+      }
+      .about p{
+        width: 516px;
+      
+      }
+
+      .about h3{
+      
+    
+      }
+
+      .about-image{
+        display: flex;
+        flex-direction: column;
+      }
+      .wood1{
+        width: 205px;
+        height: 205px;
+        margin-top: 35px;
+      }
+      .wood3{
+        width: 205px;
+        height: 205px;
+        transform: translateY(-40%);
+
+      }
+      .wood2{
+        width: 337px;
+        height: 337px;
+        transform: translate(-50%, -30%);
+      
+      }
+      .about-div{
+        margin-left: 144px;
+      }
+      form{
+        display: flex;
+        flex-direction: column;
+      }
+
+      input{
+        width: 400px;
+        height: 50px;
+        border-radius: 42px;
+        background-color: #222021;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        border-color: #728bad;
+        border-width: 2px;
+      }
+      textarea{
+        width: 400px;
+          height: 250px;
+          background-color: #222021;
+          border-radius: 42px;
+          border-width: 2px;
+            border-color: #728bad;
+      }
+            .form-btn{
+               background-color: #728bad;
+               width: 172px;
+               height: 58px;
+               border-color: transparent;
+                border-radius: 42px;
+                margin-top: 24px;
+            }
+            .questions-div{
+              display: flex;
+              justify-content: space-around;
+            }
+            .questions-h3{
+              text-align: end;
+              margin-right: 120px;
+              padding-top: 42px;
+             
+            }
+                        .div-p{
+                        
+                          font-size: 30px;
+                          width: 542px;
+                          padding-left: 73px;
+                        }
+
+                        footer{
+                          background-color: #222021;;
+                        }
+                        small{
+                          color: #f5f5f5;
+                          padding-bottom: 34px;
+                          margin-left: 74px;
+                        }
+                        .footer{
+                          display: grid;
+                          grid-template-columns: 1fr 1fr 1fr;
+                         text-align: center;
+                         margin-bottom: 40px;
+                        }
+                        .footer-logo{
+                          display: flex;
+                          margin-left: 74px;
+                        }
+                        .advantage h3{
+                          line-height: 74px;
+                          padding-top: 50px;
+                        }
+                        .advantage p{
+                          font-size: 30px;
+                        }
+                        .wood-type p{
+                          font-size: 30px;
+                        }
