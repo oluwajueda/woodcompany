@@ -12,14 +12,15 @@ body{
 h1,h4,h3,h2{
   color: #f5f5f5;
   font-family: 'Fira Sans', sans-serif;
-  font-size: 55px;
-  line-height: 23px;
-  line-height: 60px;
+  font-size: 35px;
+  line-height: 1.2
+  
 }
 
 p{
   color: #f5f5f5;
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 a{
  
@@ -88,23 +89,25 @@ li {
   border-radius: 52px 0 0 52px;
 }
 .intro{
-  padding-left: 28px;
+  padding-left: 42px;
+  padding-top: 54px;
 }
+
 .intro h2{
-  line-height: 104px;
-
+  font-size: 42px;
 }
-.intro h4{
-  line-height: 39.01px;
 
- 
-}
+
+
 .order-btn{
   color: #f5f5f5;
   background-color: #728bad;
-  width: 225px;
-    height: 58px;
+  width: 110px;
+ padding-top: 8px;
+ padding-bottom: 8px;
+  
     border-radius: 42px;
+    font-size: 16px;
   
 }
 
@@ -116,11 +119,15 @@ li {
 .header-images{
  display: flex;
  flex-direction: column;
- margin-top: 29px;
+ padding-top: 25px;
 }
 .image2 {
     transform: translate(-110%, 20% );
   }
+  .image3{
+    padding-bottom: 16px;
+  }
+
 
   main h3{
 
@@ -140,8 +147,7 @@ li {
       }
 
       .workimage{
-        width: 1130px;
-        height: 625px; 
+        width: 770px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -153,9 +159,7 @@ li {
         margin-top: 110px;
       
       }
-       .about-p{
-        font-size: 30px;
-       }
+      
       .video-p{
         display: flex;
         justify-content: space-around;
@@ -166,8 +170,8 @@ li {
       }
 
       .consult-btn{
-        width: 472px;
-        height: 58px;
+        font-size: 16px;
+       padding: 12px 32px;
         background-color: #728bad;
         color: #f5f5f5;
         border-radius: 42px;
@@ -177,7 +181,7 @@ li {
         margin-top: 65px;
         border: none;
         border-color: transparent;
-        padding: 8px 15px;
+       
       }
 
       .about{
@@ -190,7 +194,8 @@ li {
           border-radius: 0px 52px 52px 0px;
       }
       .about p{
-        width: 516px;
+        width: 312px;
+        font-size: 18px;
       
       }
 
@@ -248,11 +253,12 @@ li {
       }
             .form-btn{
                background-color: #728bad;
-               width: 172px;
-               height: 58px;
+               padding: 6px 8px;
+               width: 98px;
                border-color: transparent;
                 border-radius: 42px;
                 margin-top: 24px;
+                color: #f5f5f5;
             }
             .questions-div{
               display: flex;
@@ -266,7 +272,7 @@ li {
             }
                         .div-p{
                         
-                          font-size: 30px;
+                         
                           width: 542px;
                           padding-left: 73px;
                         }
@@ -290,12 +296,10 @@ li {
                           margin-left: 74px;
                         }
                         .advantage h3{
-                          line-height: 74px;
+                         
                           padding-top: 50px;
                         }
-                        .advantage p{
-                          font-size: 30px;
-                        }
-                        .wood-type p{
-                          font-size: 30px;
-                        }
+                        /* .advantage-div{
+                          width: 212px;
+                        } */
+                    

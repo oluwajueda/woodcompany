@@ -42,7 +42,7 @@ const Home = () => {
 
          <div className='header-box'>
              <div className='intro'>
-                <h2>SOLID <br/> WOOd PRODUCTS</h2>
+                <h2>SOLID <br/> WOOd <br/>PRODUCTS</h2>
                 <p>Oak, beech, ash from <br/> 1700 CZK perm3</p>
                 <button className='order-btn'>Order</button>
              </div>
@@ -106,7 +106,7 @@ working with us</h3>
 <div className='video-p'>
 <img src={video} alt='video'/>
 
-<div>
+<div className='advantage-div'>
 <p>In-house carpentry production</p>
 <p>We only treat wood with environmentally friendly and safe products</p>
 <p>Prices from the manufacturer, no extra charges</p>
