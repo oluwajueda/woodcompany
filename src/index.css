@@ -205,7 +205,7 @@ li {
       }
      
       .about p{
-        width: 150%;
+       
         font-size: 24px;
       
       }
@@ -336,6 +336,25 @@ li {
                               margin-left: auto;
                               margin-left: auto;
                             }
+                            .mobile-header-box{
+                              display: none;
+                              border-radius: 14px 0 0 14px;
+                                width: 90%;
+                                margin-left: auto;
+                                margin-top: 55px;
+                                margin-bottom: 12px;
+                                padding-bottom: 23px;
+                            }
+
+                            .image1-mobile{
+                              display: none;
+                            }
+                            .image2-mobile{
+                              display: none;
+                            }
+                            .image3-mobile{
+                              display: none;
+                            }
 
 
                         @media(max-width: 700px){
@@ -404,27 +423,40 @@ li {
                                     padding-bottom: 5px;
                                   }
                                   .header-box{
-                                  display: flex;
-                                  flex-direction: column;
+                                  display: none;
                                   }
-                                  .vertical-line{
-                                    transform: rotate(90deg);
-                                    height: 0;
-                                    width: 200px;
+                                  .mobile-header-box{
+                                    display: block;
+                                    flex: column;
+                                        background-color: #1E0C06;
+                                  }
+                                
+                                  .image1-mobile{
+                                    height: 90px;
+                                    width: 90px;
+                                    display: block;
+                                    transform: translate(95%, 55%);
+                                
+                                  }
+                                  .image2-mobile{
+                                    height: 90px;
+                                    width: 90px;
+                                    display: block;
+                                      transform: translate(350%, -175%);
                                   
                                   }
-                                  .image1{
+                                  .image3-mobile{
                                     height: 90px;
                                     width: 90px;
+                                    display: block;
+                                    transform: translateY(-35%);
+                                  
                                   }
-                                  .image2{
-                                    height: 90px;
-                                    width: 90px;
+                                  .mobile-header-images{
+                                    display: flex;
+                                    flex-direction: row;
                                   }
-                                  .image3{
-                                    height: 90px;
-                                    width: 90px;
-                                  }
+                                 
                                   h2,h3,h4{
                                     font-size: 1.5rem;
                                   }
@@ -442,7 +474,7 @@ li {
                                     flex-direction: column;
                                   }
                                   .workimage{
-                                    width: 65%;
+                                    width: 75%;
                                   }
                                   .video-p{
                                     display: flex;
@@ -455,14 +487,14 @@ li {
                                   .advantage-div p{
                                     font-size: 16px;
                                     width: 65%;
+                                    margin-left: 22px;
                                   }
                                   .video{
                                     width: 70%;
+                                    margin-top: 30px;
                                   }
-                                  .about-container{
-                                    display: flex;
-                                    flex-direction: column;
-                                  }
+                                 
+
                                   .questions-div{
                                     display: flex;
                                     flex-direction: column-reverse;
@@ -478,8 +510,178 @@ li {
                                     height: 182.81px;
                                     width: 182.81px;
                                   }
-                                  form{
-                                    margin-left: auto;
-                                    margin-right: auto;
+                               
+                                  .order-btn{
+                                    padding: 4px 16px;
+                                    
+                                    
+                                      border-radius: 25px;
+                                      font-size: 12px;
+                                      margin-bottom: 30px;
                                   }
+                                  .intro p{
+                                    font-size: 12px;
+                                  }
+                                .intro {
+                                 padding-left: 15px;
+                                 padding-top: 15px;
+                                }
+                                .horizontal-line{
+                                  width: 90%;
+                                  margin-left: auto;
+                                  margin-right: auto;
+                                    border-bottom: 0.5px solid #f5f5f5;
+                                    margin-bottom: 18px;
+                                  
+                                }
+
+                           main h3 {
+                      
+                      padding-left: 22px;
+                             margin-top: 25px;
+                      
+                          }
+                          .type{
+                            width: 90px;
+                          }
+                      .text{
+                        font-size: 16px;
+                      
+                       
+                      }
+                      .nike{
+                        width: 4px;
+                          padding-right: 12px;
+                      }
+                            section h3 {
+                             margin-left: 22px;
+                          margin-top: 64px
+                      
+                         }
+
+                                                    .about {
+                                                      background-color: #1E0C06;
+                                                      margin-right: 0;
+                                                      width: 95vw;
+                                                      margin-top: 85px;
+                                                      border-radius: 0px 52px 52px 0px;
+                                                    }
+                          
+                                                    .about p {
+                                                  
+                                                      font-size: 16px;
+                          
+                                                    }
+                          
+                                                    .about-container {
+                                                      display: flex;
+                                                      flex-direction: column;
+                                                      gap: 0;
+                                                    }
+                          
+                                                    .about h3 {
+                                                      padding-top: 12px;
+                          
+                                                    }
+                          
+                                                    .about-image {
+                                                      display: flex;
+                                                      flex-direction: column;
+                                                      padding-left: 120px;
+                                                      margin-left: auto;
+                                                      margin-right: auto;
+                                                    }
+                          
+                                                    .wood1 {
+                                                      width: 111px;
+                                                      height: 112px;
+                                                      margin-top: 35px;
+                                                    }
+                          
+                                                    .wood3 {
+                                                      width: 111px;
+                                                      height: 112px;
+                                                      transform: translateY(-40%);
+                          
+                                                    }
+                          
+                                                    .wood2 {
+                                                      width: 182.81px;
+                                                      height: 182.81px;
+                                                      transform: translate(-50%, -30%);
+                          
+                                                    }
+                          
+                                                    .about-div {
+                                                    padding-left: 22px;
+                                                    margin-left: 0px;
+                                                    }
+                                                    .questions-h3{
+                                                      display: block;
+                                                      margin-top: 60px;
+                                                      margin-left: 22px;
+                                                      
+                                                    }
+        .div-p {
+    
+          font-size: 16px;
+    
+          padding-left: 22px;
+          width: 75;
+    
+        }
+        form{
+          width: 50%;
+          margin-left: 22px;
+        
+        }
+                input {
+                  width: 325px;
+                  height: 32px;
+                  border-radius: 42px;
+                  background-color: #222021;
+                  margin-bottom: 8px;
+                  margin-top: 8px;
+                  border-color: #728bad;
+                  border-width: 2px;
+                }
+        
+                textarea {
+                  width: 325px;
+                  height: 155px;
+                  background-color: #222021;
+                  border-radius: 42px;
+                  border-width: 2px;
+                  border-color: #728bad;
+                }
+
+                                 .footer {
+                                   display: flex;
+                                   flex-direction: column;
+                                   text-align: center;
+                                   margin-bottom: 40px;
+                                 }
+                            .footer-logo{
+                              display: block;
+                              margin-left: 25%;
+                              text-align: center;
+                              width: 50%;
+                              padding-top: 75px;
+                            }  
+                            .phone-logo{
+                              width: 24px;
+                              margin-top: 3px;
+                              padding-right: 7px;
+                            }
+                            .location-logo{
+                              width: 24px;
+                              margin-top: 3px;
+                              padding-right: 7px;
+                            }
+                            .phone{
+                              margin-top: 42px;
+                            }
+                            small{
+                              display: none;
+                            }
                         }

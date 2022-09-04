@@ -74,6 +74,30 @@ const Home = () => {
                   </div>
              </div>
         </div>
+         <div className='mobile-header-box'>
+             <div className='intro'>
+                <h2>SOLID WOOd <br/>PRODUCTS</h2>
+                <p>Oak, beech, ash from <br/> 1700 CZK perm3</p>
+                <button className='order-btn'>Order</button>
+             </div>
+
+             <div className='horizontal-line'></div>
+               </div>
+          
+             <div className='mobile-header-images'>
+                
+                 <img src={image2} alt='' className='image2-mobile'/>
+                
+                 
+                
+                  <img src={image3} alt='' className='image3-mobile'/>
+                
+              
+                <img src={image1} alt='' className='image1-mobile'/>
+               
+            
+             </div>
+      
          </header> 
          </div>
 
@@ -82,27 +106,27 @@ const Home = () => {
             <h3>THE WOOD WE <br/> WORK WITH</h3>
             <div className='wood-type'>
             <div>
-                <img src={wood1} alt='wood'/>
+                <img src={wood1} alt='wood'  className='type'/>
                 <h4>Oak</h4>
                 <div className='wood-characters'>
                   <p><span><img src={mark} alt='mark'/></span>Durability</p>
-                <p><span><img src={mark} alt='mark'/></span>Beautiful texture</p>
-               <p><span><img src={mark} alt='mark'/></span>Water resistance</p>
-               <p><span><img src={cross} alt='mark'/></span>Expensive</p>
+                <p className='text'><span className='nike'><img src={mark} alt='mark'/></span>Beautiful texture</p>
+               <p className='text'><span  className='nike'><img src={mark} alt='mark'/></span>Water resistance</p>
+               <p className='text'><span  className='nike'><img src={cross} alt='mark'/></span>Expensive</p>
                </div>
               
             </div>
             <div>
-                 <img src={wood2} alt='wood'/>
+                 <img src={wood2} alt='wood'  className='type'/>
                  <h4>Buk</h4>
-                   <p><span><img src={mark} alt='mark'/></span>Durability</p>
-                    <p><span><img src={cross} alt='mark'/></span>Hard to handle</p>
+                   <p className='text'><span  className='nike'><img src={mark} alt='mark'/></span>Durability</p>
+                    <p className='text'><span  className='nike'><img src={cross} alt='mark'/></span>Hard to handle</p>
             </div>
             <div>
-                  <img src={wood3} alt='wood'/>
+                  <img src={wood3} alt='wood'  className='type'/>
                    <h4>Ash</h4>
-                    <p><span><img src={mark} alt='mark'/></span>Durability</p>
-                    <p><span><img src={cross} alt='mark'/></span>Hard to handle</p>
+                    <p className='text'><span  className='nike'><img src={mark} alt='mark'/></span>Durability</p>
+                    <p className='text'><span  className='nike'><img src={cross} alt='mark'/></span>Hard to handle</p>
             </div>
             </div>
         </main>
@@ -173,8 +197,8 @@ working with us</h3>
         <footer>
             <div className='footer'>
             <img src={logo}  alt='logo' className='footer-logo'/>
-            <p><span><img src={phone} alt='phone'/></span>+420 000 000 000</p>
-            <p><span><img src={location} alt='phone'/></span>Na Plzeňce 1166/0
+            <p className='phone'><span><img src={phone} alt='phone' className='phone-logo'/></span>+420 000 000 000</p>
+            <p><span><img src={location} alt='phone' className='location-logo'/></span>Na Plzeňce 1166/0
 150 00</p>
             </div>
             <small>Privacy Policy</small>
